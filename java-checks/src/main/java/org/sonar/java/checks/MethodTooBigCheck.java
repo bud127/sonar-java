@@ -33,7 +33,7 @@ import java.util.List;
 @Rule(key = "S138")
 public class MethodTooBigCheck extends IssuableSubscriptionVisitor {
 
-  private static final int DEFAULT_MAX = 75;
+  private static final int DEFAULT_MAX = 150;
 
   @RuleProperty(description = "Maximum authorized lines in a method", defaultValue = "" + DEFAULT_MAX)
   public int max = DEFAULT_MAX;
