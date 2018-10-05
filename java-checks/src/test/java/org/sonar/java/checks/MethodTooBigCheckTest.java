@@ -28,7 +28,7 @@ public class MethodTooBigCheckTest {
 
   @Test
   public void detected() {
-    assertThat(new MethodTooBigCheck().max).isEqualTo(75);
+    assertThat(new MethodTooBigCheck().max).isEqualTo(150);
   }
 
   @Test

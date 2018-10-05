@@ -8,7 +8,7 @@
     <version>46</version>
   </parent>
 
-  <groupId>org.sonarsource.java</groupId>
+  <groupId>com.aprisma.devops.component</groupId>
   <artifactId>java</artifactId>
   <version>5.7.0-181001</version>
   <packaging>pom</packaging>
